@@ -13,7 +13,7 @@ end
 def assign_rooms(list)
   new_arr = []
   counter = 0
-  list.each do |name|
+  list.each_with_index do |name, index|
     new_arr << "Hello, #{name}! You'll be assigned to room #{++counter}"
   end
   new_arr
