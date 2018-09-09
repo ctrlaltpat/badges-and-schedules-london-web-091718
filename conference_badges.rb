@@ -19,6 +19,11 @@ def assign_rooms(list)
   new_arr
 end
 
-def printer
-  
+def printer(attendees)
+  batch_badge_creator(attendees).each do |msg|
+    puts msg
+  end
+  assign_rooms(attendees).each do |msg|
+    puts msg
+  end
 end
