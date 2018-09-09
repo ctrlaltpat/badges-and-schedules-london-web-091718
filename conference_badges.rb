@@ -11,7 +11,9 @@ def batch_badge_creator(arr)
 end
 
 def assign_rooms(list)
-  
+  new_arr = []
+  list.each do |name|
+    
 end
 
 def printer
